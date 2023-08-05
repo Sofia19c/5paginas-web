@@ -4,21 +4,20 @@
     border: 3px solid #000;
     padding: 5px;
     display: inline-flex;
-    margin-top: 60px;
+    margin-top: 180px;
 }
  /* pie de pagina: se le pone el color, entrado , tamaño, etc*/
 footer {
-    background-color: #f0f0f0;
-    padding: 20px;
+    background-color: #bad9fb;
+    padding: 30px;
     text-align: center;
     color: #666;
   }
   
 /* menu estatico*/
-/* styles.css */
 header {
   background-color: #5a8ee9e4;
-  padding: 10px 0;
+  padding: 30px 0;
 }
 
 nav ul {
@@ -36,7 +35,7 @@ nav li {
 nav li a {
   color: #fff;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 20px 40px;
 }
 
 nav li a:hover {
@@ -44,5 +43,12 @@ nav li a:hover {
 }
 /* coloar el texto mas abajo*/
 .introduccion {
-    margin-top: 60px;
+    margin-top: 30px;
+  }
+.titulo-principal {
+    text-align:center;
+  }
+/*Color a la pagina web*/
+body {
+    background-color: #bad9fb;
   }
