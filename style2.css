@@ -31,3 +31,41 @@ header {
   nav li a:hover {
     background-color: #98b4f1;
   }
+
+  main{
+    margin: 100px;
+    margin-top: 50px;
+}
+body {
+    background-color: #bad9fb;
+    margin: 0;
+  }
+  
+.texto-inicial{
+    text-align: left;
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parte-dos-texto{
+    text-align: left;
+    text-align:justify;
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*todo lo de la tabla */
+table {
+    float: right;
+    border-collapse: collapse; /* Fusiona los bordes de las celdas adyacentes */
+    width: 20%; /* O el ancho deseado para la tabla */
+  }
+  
+  th, td {
+    border: 1px solid #ccc; /* Agrega bordes a las celdas */
+    padding: 8px; /* Espacio entre el contenido de la celda y el borde */
+    text-align: left; /* Alineación del texto dentro de las celdas */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Color de fondo para las celdas del encabezado */
+  }
