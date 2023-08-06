@@ -81,6 +81,7 @@ main{
 
 .texto{
     text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*agrande la letra del subtitulo*/
@@ -94,4 +95,27 @@ main{
     border: 1px solid #000;
     padding: 5px;
     display: block;
+}
+
+.imagen-escudo-jave{
+    float: left;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.titulo-publicitario{
+    text-align:center;
+    font-family:monospace;
+}
+
+.video-caseta{
+    width: 40%; 
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-dos{
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
