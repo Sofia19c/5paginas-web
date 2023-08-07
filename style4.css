@@ -1,12 +1,12 @@
 
 body {
-    background-color: #bad9fb;
+    background-color: #000000;
     margin: 0;
   }
 
 /* menu estatico*/
 header {
-    background-color: #5a8ee9e4;
+    background-color: #ffffffe4;
     padding: 30px 0;
   }
   
@@ -23,7 +23,7 @@ header {
   }
   
   nav li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     padding: 20px 40px;
   }
@@ -31,3 +31,37 @@ header {
   nav li a:hover {
     background-color: #98b4f1;
   }
+
+.imagen-metallica{
+    float: right;
+    margin-right: 300px;
+}
+
+main{
+    margin: 100px;
+    margin-top: 50px;
+}
+
+.titulo-primero{
+    color:#ffffff
+}
+
+.titulo-segundo{
+    color:#ffffff
+}
+
+.titulo-tercero{
+    color:#ffffff
+}
+
+.banda-fav{
+    color:#ffffff
+}
+
+.parrafo-principal{
+    color:#ffffff
+}
+
+.lista-MUSICA{
+    color:#ffffff
+}
