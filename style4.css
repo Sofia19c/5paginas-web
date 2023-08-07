@@ -54,10 +54,12 @@ main{
     color:#ffffff
 }
 
+.titulo-cuarto{
+    color:#ffffff
+}
 .banda-fav{
     color:#ffffff
 }
-
 .parrafo-principal{
     color:#ffffff
 }
@@ -65,3 +67,9 @@ main{
 .lista-MUSICA{
     color:#ffffff
 }
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-align: left;
+  }
