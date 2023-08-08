@@ -34,14 +34,19 @@ var usuarios = [];
   var validar = function (e) {
     e.preventDefault();
     var userBien = validarUsername();
-
     if (userBien) {
         usuarios.push([formulario.user.value , formulario.name.value , formulario.imagen.value , formulario.mascota.value])
     }
+    actualizarTabla();
   };
 
   var actualizarTabla = function (){
 
+    for (let index = 0; index < usuarios.length; index++) {
+      const element = usuarios[index];
+      agregarFila(element[0], element[1], element[2], element[3]);
+    }
+    
   }
   formulario.addEventListener("submit", validar);
 })();
