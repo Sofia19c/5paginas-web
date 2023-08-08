@@ -68,10 +68,23 @@ var usuarios = [];
     }
 
   } ;
+
+  var validarUrl = function(){
+    var expression = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/gi;
+    var regex = new RegExp(expression);
+    if(formulario.imagen.value.match(regex)){
+      return true;
+    }else{
+      alert("la imagen debe ser una url");
+      return false;
+    }
+  }
+
   var validar = function (e) {
     e.preventDefault();
     var userBien = validarUsername();
-    if (userBien) {
+    var valiUrl = validarUrl();
+    if (userBien && valiUrl) {
         usuarios.push([formulario.user.value , formulario.name.value , formulario.imagen.value , formulario.mascota.value])
     }
     actualizarTabla();
