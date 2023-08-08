@@ -9,7 +9,7 @@
 }
  /* pie de pagina: se le pone el color, entrado , tamaño, etc*/
 footer {
-    background-color: #bad9fb;
+    background-color: #ffffff;
     padding: 30px;
     text-align: center;
     color: #666;
@@ -22,11 +22,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #f1b19d;
 }
 /*Menu estatico*/
 header {
-  background-color: #5a8ee9e4;
+  background-color: #f6ab32e4;
   padding: 20px 0;
   position: fixed;
   width: 100%;
@@ -52,7 +52,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #98b4f1;
+  background-color: #f1ce9d;
 }
 
 /* coloar el texto mas abajo*/
@@ -68,7 +68,7 @@ nav li a:hover {
   }
 /*Color a la pagina web*/
 body {
-    background-color: #bad9fb;
+    background-color: #ffffff;
     margin: 0;
   }
 

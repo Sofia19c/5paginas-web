@@ -10,13 +10,12 @@
   }
 
 body {
-    background-color: #bad9fb;
+    background-color: #ffffff;
     margin: 0;
   }
-
 /*Menu estatico*/
 header {
-  background-color: #5a8ee9e4;
+  background-color: #f6ab32e4;
   padding: 20px 0;
   position: fixed;
   width: 100%;
@@ -42,9 +41,8 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #98b4f1;
+  background-color: #f1ce9d;
 }
-
 .hoja-de-vida{
     float: right;
     place-items: right;
@@ -52,7 +50,7 @@ nav li a:hover {
 }
 
 footer {
-    background-color: #bad9fb;
+    background-color: #ffffff;
     padding: 30px;
     text-align: center;
     color: #666;
@@ -93,11 +91,11 @@ footer {
   content: "\2022";
   position: absolute;
   left: -20px;
-  color: #007bff; /* Cambia el color de las viñetas */
+  color: #ff0707; /* Cambia el color de las viñetas */
 }
 
 .viñeta-color {
-  color: #ff5733; /* Cambia el color del texto de las viñetas */
+  color: #263d00; /* Cambia el color del texto de las viñetas */
 }
 
 
@@ -118,11 +116,11 @@ footer {
   counter-increment: my-counter;
   position: absolute;
   left: -20px;
-  color: #ff5733; /* Cambia el color de las viñetas */
+  color: #efa300; /* Cambia el color de las viñetas */
 }
 
 .lista-numerada-uno li span {
-  color: #007bff; /* Cambia el color del texto de las viñetas */
+  color: #24ab51; /* Cambia el color del texto de las viñetas */
 }
 
   /* styles.css lista no enumerada 1 */
@@ -140,11 +138,11 @@ footer {
   content: "\2022";
   position: absolute;
   left: -20px;
-  color: #ff5733; /* Cambia el color de las viñetas */
+  color: #b133ff; /* Cambia el color de las viñetas */
 }
 
 .lista-no-enumerada-dos li span {
-  color: #007bff; /* Cambia el color del texto de las viñetas */
+  color: #9a00a2; /* Cambia el color del texto de las viñetas */
 }
 
 /* styles.css numerada 2*/
@@ -164,7 +162,7 @@ footer {
   counter-increment: my-counter;
   position: absolute;
   left: -20px;
-  color: #ff5733; /* Cambia el color de las viñetas */
+  color: #0f0142; /* Cambia el color de las viñetas */
 }
 
 .lista-numerada-dos li span {
@@ -174,14 +172,14 @@ footer {
 .seccion-uno{
 
   border: 2px solid #333;
-  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Fondo en gradiente */
+  background: linear-gradient(to bottom, #f1c66f, #f0b745); /* Fondo en gradiente */
   padding: 20px;
   margin: 20px 0;
 }
 
 .seccion-dos{
   border: 2px solid #333;
-  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Fondo en gradiente */
+  background: linear-gradient(to bottom, #f6c45f, #c0c0c0); /* Fondo en gradiente */
   padding: 20px;
   margin: 20px 0;
 }
@@ -189,7 +187,7 @@ footer {
 .seccion-tres{
 
   border: 2px solid #333;
-  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Fondo en gradiente */
+  background: linear-gradient(to bottom, #f5c461, #c0c0c0); /* Fondo en gradiente */
   padding: 20px;
   margin: 20px 0;
 }
@@ -197,7 +195,7 @@ footer {
 .seccion-cero{
 
   border: 2px solid #333;
-  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Fondo en gradiente */
+  background: linear-gradient(to bottom, #fbda97, #edc066); /* Fondo en gradiente */
   padding: 20px;
   margin: 20px 0;
 }

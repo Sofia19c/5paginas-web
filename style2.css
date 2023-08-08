@@ -7,14 +7,16 @@
     display: inline-block; /* Asegura que el subrayado solo se extienda hasta el final del título */
     padding-bottom: 5px; 
     font-size: 200%;
+    color: #ffffff;
 }
 
 .titulo-secundario{
   font-family: 'Inconsolata', monospace;
+  color: #ffffff;
 }
 
 footer {
-  background-color: #bad9fb;
+  background-color: #000000;
   padding: 30px;
   text-align: center;
   color: #666;
@@ -25,7 +27,7 @@ h3 {
 }
 /*Menu estatico*/
 header {
-  background-color: #5a8ee9e4;
+  background-color: #f6ab32e4;
   padding: 20px 0;
   position: fixed;
   width: 100%;
@@ -51,21 +53,23 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #98b4f1;
+  background-color: #f1ce9d;
 }
+
 
   main{
     margin: 100px;
     margin-top: 50px;
 }
 body {
-    background-color: #bad9fb;
+    background-color: #000000;
     margin: 0;
   }
   
 .texto-inicial{
     text-align: justify;
     font-family:'Inconsolata', monospace;
+    color:#ffffff
     
 }
 
@@ -78,7 +82,7 @@ table {
   }
   
   th, td {
-    border: 1px solid #0616a3; /* Agrega bordes a las celdas */
+    border: 1px solid #121955; /* Agrega bordes a las celdas */
     padding: 8px; /* Espacio entre el contenido de la celda y el borde */
     text-align: left; /* Alineación del texto dentro de las celdas */
     font-family: 'Inconsolata', monospace;
@@ -91,12 +95,12 @@ table {
   }
 
   td:nth-child(odd){
-    background-color: #c8f481;
+    background-color: #649c67;
     color: #000000;
   }
   
   th {
-    background-color: #00093f; /* Color de fondo para las celdas del encabezado */
+    background-color: #090c1d; /* Color de fondo para las celdas del encabezado */
   }
 .contenedor-tabla{
   display: flex;
