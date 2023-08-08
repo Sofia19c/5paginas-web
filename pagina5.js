@@ -41,7 +41,10 @@ var usuarios = [];
   };
 
   var actualizarTabla = function (){
-
+    const tablita = document.getElementById("filas")
+    while (tablita.firstChild){
+      tablita.removeChild(tablita.firstChild);
+    }
     for (let index = 0; index < usuarios.length; index++) {
       const element = usuarios[index];
       agregarFila(element[0], element[1], element[2], element[3]);
