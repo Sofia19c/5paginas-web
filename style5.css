@@ -26,3 +26,19 @@ header {
   nav li a:hover {
     background-color: #98b4f1;
   }
+
+  table {
+    border-collapse: collapse; /* Fusiona los bordes de las celdas adyacentes */
+    width: 20%; /* O el ancho deseado para la tabla */
+    margin: 1rem;
+  }
+  
+  th, td {
+    border: 1px solid #0616a3; /* Agrega bordes a las celdas */
+    padding: 8px; /* Espacio entre el contenido de la celda y el borde */
+    text-align: left; /* Alineación del texto dentro de las celdas */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Color de fondo para las celdas del encabezado */
+  }
