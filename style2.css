@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&display=swap');
+
 .titulo-principal {
-    font-family: monospace;
+    font-family: 'Inconsolata', monospace;
     text-align: center;
     border-bottom: 2px solid #007bff; /* Cambia el color del subrayado */
     display: inline-block; /* Asegura que el subrayado solo se extienda hasta el final del título */
     padding-bottom: 5px; 
     font-size: 200%;
+}
+
+.titulo-secundario{
+  font-family: 'Inconsolata', monospace;
 }
 
 footer {
@@ -15,7 +21,7 @@ footer {
 }
 
 h3 {
-    font-family: monospace;
+  font-family: 'Inconsolata', monospace;
 }
 /* menu estatico*/
 header {
@@ -56,7 +62,7 @@ body {
   
 .texto-inicial{
     text-align: justify;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Inconsolata', monospace;
     
 }
 
@@ -72,6 +78,7 @@ table {
     border: 1px solid #0616a3; /* Agrega bordes a las celdas */
     padding: 8px; /* Espacio entre el contenido de la celda y el borde */
     text-align: left; /* Alineación del texto dentro de las celdas */
+    font-family: 'Inconsolata', monospace;
   }
   
   th {
