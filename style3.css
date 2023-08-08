@@ -69,6 +69,76 @@ footer {
 .secciones-subsecciones{
     font-size: large;
   }
+
+/* styles.css lista no enumerada 1*/
+.lista-no-enumerada-uno {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.lista-no-enumerada-uno li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.lista-no-enumerada-uno li::before {
+  content: "\2022";
+  position: absolute;
+  left: -20px;
+  color: #007bff; /* Cambia el color de las viñetas */
+}
+
+.viñeta-color {
+  color: #ff5733; /* Cambia el color del texto de las viñetas */
+}
+
+
+  /* styles.css lista numerada uno*/
+.lista-numerada-uno {
+  list-style: none;
+  counter-reset: my-counter;
+  padding-left: 20px;
+}
+
+.lista-numerada-uno li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.lista-numerada-uno li::before {
+  content: counter(my-counter) ".";
+  counter-increment: my-counter;
+  position: absolute;
+  left: -20px;
+  color: #ff5733; /* Cambia el color de las viñetas */
+}
+
+.lista-numerada-uno li span {
+  color: #007bff; /* Cambia el color del texto de las viñetas */
+}
+
+  /* styles.css lista no enumerada 1 */
+.lista-no-enumerada-dos {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.lista-no-enumerada-dos li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.lista-no-enumerada-dos li::before {
+  content: "\2022";
+  position: absolute;
+  left: -20px;
+  color: #ff5733; /* Cambia el color de las viñetas */
+}
+
+.lista-no-enumerada-dos li span {
+  color: #007bff; /* Cambia el color del texto de las viñetas */
+}
+
 /* styles.css numerada 2*/
 .lista-numerada-dos {
   list-style: none;
@@ -91,4 +161,35 @@ footer {
 
 .lista-numerada-dos li span {
   color: #007bff; /* Cambia el color del texto de las viñetas */
+}
+
+.seccion-uno{
+
+  border: 2px solid #333;
+  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Fondo en gradiente */
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.seccion-dos{
+  border: 2px solid #333;
+  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Fondo en gradiente */
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.seccion-tres{
+
+  border: 2px solid #333;
+  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Fondo en gradiente */
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.seccion-cero{
+
+  border: 2px solid #333;
+  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Fondo en gradiente */
+  padding: 20px;
+  margin: 20px 0;
 }
