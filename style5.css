@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&display=swap');
 
 /* menu estatico*/
 header {
@@ -30,18 +31,21 @@ header {
   border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
   display: inline-block;
   padding-bottom: 5px;
+  font-family: 'Inconsolata', monospace;
 }
 
 .titulo-dos{
   border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
   display: inline-block;
   padding-bottom: 5px;
+  font-family: 'Inconsolata', monospace;
 }
 
 .titulo-tres{
   border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
   display: inline-block;
   padding-bottom: 5px;
+  font-family: 'Inconsolata', monospace;
 }
   
   
@@ -56,8 +60,16 @@ header {
     border: 1px solid #0616a3; /* Agrega bordes a las celdas */
     padding: 8px; /* Espacio entre el contenido de la celda y el borde */
     text-align: left; /* Alineación del texto dentro de las celdas */
+    font-family: 'Inconsolata', monospace;
   }
   
   th {
     background-color: #f2f2f2; /* Color de fondo para las celdas del encabezado */
+  }
+
+  footer {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    color: #666;
   }
