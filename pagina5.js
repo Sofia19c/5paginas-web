@@ -52,12 +52,21 @@ var usuarios = [];
     boton = document.getElementById("btn");
 
   var validarUsername = function () {
+
+    for (let index = 0; index < usuarios.length; index++) {
+      const element = usuarios[index];
+      if(element[0]==formulario.user.value){
+        alert("El usuario ya existe");
+        return false;
+      }
+    }
     if (!formulario.user.value.includes(".")) {
       alert("Porfavor asegurece de tener el punto");
       return false;
     }else{
         return true;
     }
+
   } ;
   var validar = function (e) {
     e.preventDefault();
