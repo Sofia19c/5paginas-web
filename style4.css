@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&display=swap');
 
 body {
     background-color: #000000;
@@ -47,6 +48,7 @@ main{
     border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
     display: inline-block;
     padding-bottom: 5px;
+    font-family: 'Inconsolata', monospace;
     
 }
 
@@ -55,6 +57,7 @@ main{
   border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
   display: inline-block;
   padding-bottom: 5px;
+  font-family: 'Inconsolata', monospace;
 }
 
 .titulo-tercero{
@@ -62,6 +65,7 @@ main{
   border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
   display: inline-block;
   padding-bottom: 5px;
+  font-family: 'Inconsolata', monospace;
 }
 
 .titulo-cuarto{
@@ -69,24 +73,30 @@ main{
   border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
   display: inline-block;
   padding-bottom: 5px;
+  font-family: 'Inconsolata', monospace;
 }
 .banda-fav{
-    color:#ffffff
+    color:#ffffff;
+    font-family: 'Inconsolata', monospace;
 }
 .parrafo-principal{
-    color:#ffffff
+    color:#ffffff;
+    font-family: 'Inconsolata', monospace;
 }
 
 .lista-MUSICA{
-    color:#ffffff
+    color:#ffffff;
+    font-family: 'Inconsolata', monospace;
 }
 
 .aesthetic{
-    color:#ffffff
+    color:#ffffff;
+    font-family: 'Inconsolata', monospace;
 }
 
 .texto-quinto{
-    color:#ffffff
+    color:#ffffff;
+    font-family: 'Inconsolata', monospace;
 }
 
 .arg{
