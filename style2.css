@@ -82,10 +82,21 @@ table {
     padding: 8px; /* Espacio entre el contenido de la celda y el borde */
     text-align: left; /* Alineación del texto dentro de las celdas */
     font-family: 'Inconsolata', monospace;
+    color: #ffffff;
+  }
+
+  td:nth-child(even){
+    background-color: #fff;
+    color: #000000;
+  }
+
+  td:nth-child(odd){
+    background-color: #c8f481;
+    color: #000000;
   }
   
   th {
-    background-color: #f2f2f2; /* Color de fondo para las celdas del encabezado */
+    background-color: #00093f; /* Color de fondo para las celdas del encabezado */
   }
 .contenedor-tabla{
   display: flex;
