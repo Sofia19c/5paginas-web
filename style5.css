@@ -22,10 +22,29 @@ header {
     text-decoration: none;
     padding: 20px 40px;
   }
-  
   nav li a:hover {
     background-color: #98b4f1;
   }
+
+.titulo-principal{
+  border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.titulo-dos{
+  border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.titulo-tres{
+  border-bottom: 2px solid #007bff; /* Agrega un subrayado al título */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+  
+  
 
   table {
     border-collapse: collapse; /* Fusiona los bordes de las celdas adyacentes */
