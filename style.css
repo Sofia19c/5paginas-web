@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&display=swap');
+
+ 
  /* posición, marco y tamaño*/
 .yo{
     float: left;
@@ -48,6 +51,7 @@ nav li a:hover {
     display: inline-block; /* Asegura que el subrayado solo se extienda hasta el final del título */
     padding-bottom: 5px; 
     font-size: 200%;
+    font-family: 'Inconsolata', monospace;
   }
 /*Color a la pagina web*/
 body {
@@ -74,6 +78,7 @@ p {
     text-align: center;
     text-align: left;
     max-width: 5000px;
+    font-family: 'Inconsolata', monospace;
 }
 
 main{
@@ -83,7 +88,7 @@ main{
 
 .texto{
     text-align: justify;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 /*agrande la letra del subtitulo*/
@@ -114,6 +119,7 @@ main{
 .titulo-publicitario{
     text-align:center;
     font-family:monospace;
+    font-family: 'Inconsolata', monospace;
 }
 
 .video-caseta{
@@ -125,6 +131,5 @@ main{
 }
 .texto-dos{
     text-align: justify;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
-
