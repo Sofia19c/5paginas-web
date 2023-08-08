@@ -69,3 +69,26 @@ footer {
 .secciones-subsecciones{
     font-size: large;
   }
+/* styles.css numerada 2*/
+.lista-numerada-dos {
+  list-style: none;
+  counter-reset: my-counter;
+  padding-left: 20px;
+}
+
+.lista-numerada-dos li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.lista-numerada-dos li::before {
+  content: counter(my-counter) ".";
+  counter-increment: my-counter;
+  position: absolute;
+  left: -20px;
+  color: #ff5733; /* Cambia el color de las viñetas */
+}
+
+.lista-numerada-dos li span {
+  color: #007bff; /* Cambia el color del texto de las viñetas */
+}
