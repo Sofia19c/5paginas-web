@@ -5,11 +5,12 @@ var formulario = document.getElementsByName('formulario')[0],
 
     validarUsername = function(){
         if(formulario.user.value == ""){
-            alert("Completa el campo validar")
+            alert("Completa el campo Username");
         }
     };
 
-    var validar = function(){
+    var validar = function(e){
+        e.preventDefault();
         validarUsername();
     };
 
