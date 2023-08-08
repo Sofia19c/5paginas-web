@@ -3,7 +3,7 @@ var formulario = document.getElementsByName('formulario')[0],
     elementos = formulario.elements,
     boton= document.getElementById('btn');
 
-    validarUsername = function(){
+    var validarUsername = function(){
         if(formulario.user.value == ""){
             alert("Completa el campo Username");
         }
