@@ -1,23 +1,51 @@
 var usuarios = [];
 
 (function () {
-  const botonDos = document.getElementById("agregarFila");
-  botonDos.addEventListener("click", agregarFila);
 
-  function agregarFila(user, name, imagen, mascota) {
+  function agregarFila(user, name, imagen) {
+    
     const tablita = document
       .getElementById("filas")
     const nuevaFila = tablita.insertRow();
 
     const Username = nuevaFila.insertCell(0);
     const Nombre = nuevaFila.insertCell(1);
-    const Imagen = nuevaFila.insertCell(1);
-    const Mascotas = nuevaFila.insertCell(1);
+    const Imagen = nuevaFila.insertCell(2);
+    const Mascotas = nuevaFila.insertCell(3);
+
+    var botonMascota = document.createElement("button");
+    botonMascota.textContent = "Ver mascota";
+    botonMascota.addEventListener("click",(e)=>{
+      e.preventDefault();
+      mostrarMascotica(user);
+    })
+
+    var mostrarMascotica = function(usuario){
+      var mascoticaUwU;
+      for (let index = 0; index < usuarios.length; index++) {
+        const element = usuarios[index];
+
+        if (usuario == element[0] ) {
+          mascoticaUwU = element[3]
+        }
+
+      }
+      var listaMascota = document.getElementById("lista");
+      while (listaMascota.firstChild){
+        listaMascota.removeChild(listaMascota.firstChild);
+      }
+      var item = document.createElement("li");
+      item.textContent = mascoticaUwU;
+      listaMascota.appendChild(item);
+      
+    }
+  
 
     Username.innerHTML = user ;
     Nombre.innerHTML = name;
     Imagen.innerHTML = imagen ;
-    Mascotas.innerHTML = mascota;
+    Mascotas.appendChild(botonMascota);
+
   }
   var formulario = document.getElementsByName("formulario")[0],
     elementos = formulario.elements,
@@ -47,7 +75,7 @@ var usuarios = [];
     }
     for (let index = 0; index < usuarios.length; index++) {
       const element = usuarios[index];
-      agregarFila(element[0], element[1], element[2], element[3]);
+      agregarFila(element[0], element[1], element[2]);
     }
     
   }
